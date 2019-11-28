@@ -18,4 +18,10 @@ public class MainActivity extends AppCompatActivity {
                     .commitNow();
         }
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        //fyll på
+    }
 }
